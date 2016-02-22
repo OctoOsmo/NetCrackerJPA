@@ -1,0 +1,130 @@
+2016-02-21 23:58:02,229 INFO o.h.Version [main] logVersion HHH000412: Hibernate Core {5.0.4.Final} 
+2016-02-21 23:58:02,237 INFO o.h.c.Environment [main] <clinit> HHH000206: hibernate.properties not found 
+2016-02-21 23:58:02,249 INFO o.h.c.Environment [main] buildBytecodeProvider HHH000021: Bytecode provider name : javassist 
+2016-02-21 23:58:02,683 INFO o.h.a.c.Version [main] <clinit> HCANN000001: Hibernate Commons Annotations {5.0.0.Final} 
+2016-02-21 23:58:04,552 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-21 23:58:04,595 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-21 23:58:04,598 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-21 23:58:04,599 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-21 23:58:04,640 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-21 23:58:05,498 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-21 23:58:07,963 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-21 23:58:07,979 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6025e1b6 
+2016-02-21 23:58:11,757 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-21 23:58:12,320 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:12,814 INFO o.h.Version [main] logVersion HHH000412: Hibernate Core {5.0.4.Final} 
+2016-02-22 00:00:12,823 INFO o.h.c.Environment [main] <clinit> HHH000206: hibernate.properties not found 
+2016-02-22 00:00:12,832 INFO o.h.c.Environment [main] buildBytecodeProvider HHH000021: Bytecode provider name : javassist 
+2016-02-22 00:00:13,130 INFO o.h.a.c.Version [main] <clinit> HCANN000001: Hibernate Commons Annotations {5.0.0.Final} 
+2016-02-22 00:00:14,253 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:00:14,288 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:00:14,290 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:00:14,294 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:00:14,309 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:00:14,737 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:00:15,836 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:00:15,852 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55536d9e 
+2016-02-22 00:00:19,349 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:00:19,739 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:23,589 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:00:23,591 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:00:23,593 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:00:23,595 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:00:23,600 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:00:23,773 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:00:24,673 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:00:24,678 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55536d9e 
+2016-02-22 00:00:25,212 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:00:25,458 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:25,572 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:00:25,974 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:00:25,976 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:00:25,981 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:00:25,982 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:00:25,985 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:00:26,097 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:00:26,835 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:00:26,840 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55536d9e 
+2016-02-22 00:00:27,576 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:00:28,014 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:28,075 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:00:28,899 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:00:28,900 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:00:28,902 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:00:28,903 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:00:28,906 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:00:29,050 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:00:29,834 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:00:29,846 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55536d9e 
+2016-02-22 00:00:30,320 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:00:30,687 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:30,733 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:00:31,090 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:00:31,092 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:00:31,094 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:00:31,094 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:00:31,097 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:00:31,188 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:00:31,909 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:00:31,914 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@55536d9e 
+2016-02-22 00:00:32,323 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:00:32,541 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:00:32,575 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:47:38,661 INFO o.h.Version [main] logVersion HHH000412: Hibernate Core {5.0.4.Final} 
+2016-02-22 00:47:38,680 INFO o.h.c.Environment [main] <clinit> HHH000206: hibernate.properties not found 
+2016-02-22 00:47:38,688 INFO o.h.c.Environment [main] buildBytecodeProvider HHH000021: Bytecode provider name : javassist 
+2016-02-22 00:47:38,911 INFO o.h.a.c.Version [main] <clinit> HCANN000001: Hibernate Commons Annotations {5.0.0.Final} 
+2016-02-22 00:47:39,971 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:47:40,010 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:47:40,012 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:47:40,015 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:47:40,035 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:47:40,363 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:47:41,358 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:47:41,374 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29e495ff 
+2016-02-22 00:47:43,904 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:47:44,185 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:47:46,262 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:47:46,264 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:47:46,266 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:47:46,268 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:47:46,270 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:47:46,391 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:47:47,132 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:47:47,138 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29e495ff 
+2016-02-22 00:47:47,744 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:47:47,981 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:47:48,024 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:47:48,355 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:47:48,356 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:47:48,358 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:47:48,359 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:47:48,361 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:47:48,448 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:47:48,984 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:47:48,993 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29e495ff 
+2016-02-22 00:47:49,358 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:47:49,575 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:47:49,608 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:47:50,274 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:47:50,276 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:47:50,279 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:47:50,280 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:47:50,282 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:47:50,376 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:47:51,008 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:47:51,012 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29e495ff 
+2016-02-22 00:47:51,359 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:47:51,535 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:47:51,559 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 
+2016-02-22 00:47:51,765 WARN o.h.o.connections [main] configure HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+2016-02-22 00:47:51,766 INFO o.h.o.connections [main] buildCreator HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/NetCrackerJPA] 
+2016-02-22 00:47:51,767 INFO o.h.o.connections [main] buildCreator HHH10001001: Connection properties: {user=postgres, password=root} 
+2016-02-22 00:47:51,768 INFO o.h.o.connections [main] buildCreator HHH10001003: Autocommit mode: false 
+2016-02-22 00:47:51,770 INFO o.h.e.j.c.i.DriverManagerConnectionProviderImpl [main] <init> HHH000115: Hibernate connection pool size: 20 (min=1) 
+2016-02-22 00:47:51,854 INFO o.h.d.Dialect [main] <init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect 
+2016-02-22 00:47:52,447 INFO o.h.e.j.e.i.LobCreatorBuilderImpl [main] useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2016-02-22 00:47:52,451 INFO o.h.t.BasicTypeRegistry [main] register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@29e495ff 
+2016-02-22 00:47:52,726 INFO o.h.t.h.SchemaUpdate [main] execute HHH000228: Running hbm2ddl schema update 
+2016-02-22 00:47:52,917 INFO o.h.h.i.QueryTranslatorFactoryInitiator [main] initiateService HHH000397: Using ASTQueryTranslatorFactory 
+2016-02-22 00:47:52,948 WARN o.h.j.i.EntityManagerFactoryRegistry [main] addEntityManagerFactory HHH000436: Entity manager factory name (NC_JPA) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name' 

@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>/CRUD</context-root>
+</jboss-web>
