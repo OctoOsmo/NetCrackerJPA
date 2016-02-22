@@ -10,6 +10,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by al on 22.02.2016.
@@ -21,9 +22,18 @@ public class TrainController implements Serializable {
 
     Depot depot = new Depot();
 
+    private Long id;
     private String trainName;
     private Date trainReleaseDate;
     private float trainCost;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getTrainName() {
         return trainName;
@@ -52,5 +62,21 @@ public class TrainController implements Serializable {
     public void addTrain(){
         System.out.println(new Train(trainName, new Date(), trainCost));
         depot.add(new Train(trainName, new Date(), trainCost));
+    }
+
+    public List<Train> getAllTrains(){
+        return depot.getAll();
+    }
+
+    public void deleteTrain(Long id){
+        depot.delete(id);
+    }
+
+    public void updateTrain(){
+        Train train = depot.get(id);
+        train.setName(trainName);
+        train.setCost(trainCost);
+        train.setReleaseDate(new Date());
+        depot.update(train);
     }
 }

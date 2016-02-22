@@ -8,7 +8,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "trains")
-@NamedQuery(name = "Train.getAll", query = "select tr from Train tr")
+@NamedQuery(name = "Train.getAll", query = "select tr from Train tr order by id")
 public class Train {
 
     @Id

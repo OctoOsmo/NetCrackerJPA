@@ -8,46 +8,49 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:c="http://java.sun.com/jsp/jstl/core">
 <h:head>
-    <title>!!</title>
+    <title>Train CRUD</title>
 </h:head>
-<h:body>
+<h:body style="background-color: dimgray">
     <div align="center">
-        <h:form>
-            <h:panelGrid columns="2">
-                <h:outputText value="train name"/>
-                <h:inputText value="#{trainController.trainName}" required="true" />
-                <h:outputText value="train cost"/>
-                <h:inputText value="#{trainController.trainCost}" required="true" />
-                <h:commandButton value="submit" action="#{trainController.addTrain}" />
-            </h:panelGrid>
-            <h:messages />
-        </h:form>
         <h:messages id="msg" />
         <h:form>
-            <h:panelGrid columns="2">
+            <h:panelGrid columns="2" style="text-decoration-color: aliceblue">
                 <h:outputText value="train name"/>
                 <p:inputText value="#{trainController.trainName}" />
-                <h:outputText value="train release date" />
-                <p:inputText value="#{trainController.trainReleaseDate}"/>
                 <h:outputText value="train cost" />
                 <p:inputText value="#{trainController.trainCost}"/>
-                <p:commandButton value="add" action="#{trainController.addTrain}"/>
+                <f:facet name="footer">
+                    <p:commandButton value="add" action="#{trainController.addTrain}" ajax="false"/>
+                </f:facet>
             </h:panelGrid>
         </h:form>
-        <h:form>
-            <h:panelGrid columns="3" cellpadding="5">
-                <h:outputText value="KeyUp: " />
-                <p:inputText id="firstname" value="#{userView.firstname}">
-                    <p:ajax event="keyup" update="out1" />
-                </p:inputText>
-                <h:outputText id="out1" value="#{userView.firstname}" />
-
-                <h:outputText value="Blur: " />
-                <p:inputText id="surname" value="#{userView.lastname}">
-                    <p:ajax event="blur" update="out2" />
-                </p:inputText>
-                <h:outputText id="out2" value="#{userView.lastname}" />
-            </h:panelGrid>
+        <h:form style="width: 50%">
+            <p:dataScroller value="#{trainController.allTrains}"
+                            var="train" chunkSize="30" id="dataScroller">
+                <f:facet name="header">
+                    Прокрутите вниз, что бы увидеть больше
+                </f:facet>
+                <p:panelGrid columns="6" layout="grid">
+                    <h:outputText value="#{train.id}"/>
+                    <h:outputText value="#{train.name}"/>
+                    <h:outputText value="#{train.cost}"/>
+                    <p:commandButton value="delete" actionListener="#{trainController.deleteTrain(train.id)}"
+                                     update="dataScroller"/>
+                    <p:commandButton value="Update" type="button" onclick="PF('dlg1').show();" />
+                </p:panelGrid>
+                <p:dialog header="update train" widgetVar="dlg1" minHeight="40"
+                          showEffect="clip" hideEffect="clip">
+                    <h:panelGrid columns="2">
+                        <h:outputText value="train id"/>
+                        <p:inputText value="#{trainController.id}" />
+                        <h:outputText value="train name"/>
+                        <p:inputText value="#{trainController.trainName}" />
+                        <h:outputText value="train cost" />
+                        <p:inputText value="#{trainController.trainCost}"/>
+                        <p:commandButton value="update" action="#{trainController.updateTrain}" update="dataScroller"/>
+                    </h:panelGrid>
+                </p:dialog>
+            </p:dataScroller>
         </h:form>
     </div>
 </h:body>
