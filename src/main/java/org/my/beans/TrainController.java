@@ -1,5 +1,7 @@
 package org.my.beans;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.my.persistence.crud.Depot;
 import org.my.persistence.entities.Train;
 
@@ -19,6 +21,8 @@ import java.util.List;
 @ManagedBean
 @SessionScoped
 public class TrainController implements Serializable {
+
+    private final Logger log = LogManager.getLogger(TrainController.class);
 
     Depot depot = new Depot();
 
@@ -60,7 +64,7 @@ public class TrainController implements Serializable {
     }
 
     public void addTrain(){
-        System.out.println(new Train(trainName, new Date(), trainCost));
+        log.debug(new Train(trainName, new Date(), trainCost));
         depot.add(new Train(trainName, new Date(), trainCost));
     }
 
